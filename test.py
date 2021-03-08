@@ -4,7 +4,7 @@ from Square import square
 
 def main():
     rect = Rectangle()
-    sq = square()
+    sq = square(6)
     tri = Triangle()
     rect.breadth = 5
     rect.length = 30
@@ -13,9 +13,10 @@ def main():
     tri = Triangle()
     result1 = rect.area()
     result2 = tri.area()
-    result3 = square()
+    result3 = sq.area()
+    #always observe the object used
     final = result3 + result2 + result1
-    print( "behold... the reuslt", final)
+    print("behold... the reuslt", final)
 
 
 main()

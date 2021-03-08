@@ -3,4 +3,4 @@ class square:
         self.length = length
 
     def area(self):
-        return self.length**2
+        return (self.length * self.length)

@@ -1,9 +1,10 @@
 class Triangle:
-    def __init__(self, width = 0, height = 0):
-        self.width = width
+    def __init__(self, base = 0, height = 0):
+        self.base = base
         self.height = height
 
     def area(self):
-        self.width = float(input('enter the base value of your triangle: '))
+        #decided to try the inputing
+        self.base = float(input('enter the base value of your triangle: '))
         self.height = float(input('enter the height of your triangle: '))
-        return (1/2*self.width * self.height)
+        return (0.5*self.base * self.height)
